@@ -104,9 +104,10 @@ This project evaluates multiple machine learning models to determine which perfo
 
 \- `README.md` → Documentation
 
-\- `model/train\_models.py` → Training script for all models
+\- `model/train_models.py` → Training script for all models
 
 \- `model/saved\_models/` → Pickled models and scaler
+
 
 
 
