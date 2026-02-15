@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 st_lit.title("📊 Bank Marketing Classification Models (UCI ML Dataset)")
 
 # Provide GitHub download link for validation file
-github_url = "https://github.com/2025aa05872/bank-marketing-streamlit/raw/main/data/bank_validation_small.csv"
+github_url = "https://github.com/navinnayan-coder/bank-marketing-streamlit/raw/main/data/bank_validation_small.csv"
 
 try:
     response = requests.get(github_url)
@@ -117,4 +117,5 @@ if os.path.exists("model/saved_models"):
 else:
 
     st_lit.warning("No saved models found. Please train models first.")
+
 
